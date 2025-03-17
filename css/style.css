@@ -140,8 +140,15 @@ img {
   .lessons .col {
     width: 100% !important;
   }
+  .lessons {
+    padding-bottom: 3rem;
+  }
   .steps .col {
     width: 100%;
+  }
+
+  .steps {
+    margin: 0;
   }
 
   .row .card {
@@ -154,5 +161,23 @@ img {
   .steps .col img {
     max-height: 200px;
     height: 100%;
+  }
+
+  .why-us {
+    background-color: #222222;
+    margin-bottom: 0px;
+    padding: 3rem 0;
+  }
+
+  .why-us img {
+    padding-bottom: 3rem;
+  }
+
+  .why-us .col-left {
+    width: 100%;
+  }
+
+  .why-us .col-right {
+    width: 100%;
   }
 }
