@@ -133,11 +133,26 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .why-us .col-left {
-    width: 35%;
+@media screen and (max-width: 480px) {
+  .row {
+    flex-wrap: wrap;
   }
-  .why-us .col-right {
-    width: 65%;
+  .lessons .col {
+    width: 100% !important;
+  }
+  .steps .col {
+    width: 100%;
+  }
+
+  .row .card {
+    padding-bottom: 40px;
+  }
+  .col:last-child .card {
+    padding-bottom: 0px;
+  }
+
+  .steps .col img {
+    max-height: 200px;
+    height: 100%;
   }
 }
