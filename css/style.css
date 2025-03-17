@@ -137,4 +137,7 @@ img {
   .why-us .col-left {
     width: 35%;
   }
+  .why-us .col-right {
+    width: 65%;
+  }
 }
